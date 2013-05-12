@@ -25,7 +25,7 @@
 			<div class="mode-switch click active-mode" id="mode-normal">Kartenmodus</div>
 			<div class="mode-switch click" id="mode-draw">Zeichenmodus</div>
 			<div class="mode-switch click" id="mode-planner">Planungsmodus</div>
-      <div class="mode-switch click" id="mode-cape" title="[C]omputer [A]ssisted [P]lanner for [E]xpeditions - coming soon">CAPE</div>
+                        <!-- <div class="mode-switch click" id="mode-cape" title="[C]omputer [A]ssisted [P]lanner for [E]xpeditions - coming soon">CAPE</div> -->
 			<div class="help-switch click" id="mode-help">Hilfe / F.A.Q.</div>
 		</div>
 		<div id="townBar" class="clearfix hideme"><h2 id="townInfo"><span id="townDay"></span><span id="townName"></span><span id="townID"></span><span id="townSpy"><a href="#" target="_new">Spionagelink</a></span><span id="townHistory">Tag </span></h2></div>
