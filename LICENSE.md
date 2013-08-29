@@ -1,7 +1,7 @@
 The project's official name is "Fata Morgana". 
 
-"Fata Morgana" is a fan project for the browser-game "Die Verdammten", the German version of Motion Twins's "Hordes". Most icons used in this project are copyrigted by Motion Twin.
-http://dieverdammten.de
+"Fata Morgana" is a fan project for the browser-game "Zombinoia", the Spanish version of Motion Twins's "Hordes". Most icons used in this project are copyrigted by Motion Twin.
+http://zombinoia.es
 http://twinoid.com
 http://www.motion-twin.com/
 
