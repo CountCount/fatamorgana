@@ -38,92 +38,77 @@ window.__ = jsIn.translate;
 
 // dictionary
 jsIn.addDict({
-'Zone' : 'Zone',
-'Entfernung' : 'Entfernung',
-'AP' : 'AP',
+'Zone' : 'zona',
+'Entfernung' : 'distancia',
+'AP' : 'PA',
 'km' : 'km',
-'Gebäude ist leer.' : 'Gebäude ist leer.',
-'regenerieren' : 'regenerieren',
-'Gebäude ist durchsuchbar.' : 'Gebäude ist durchsuchbar.',
-'leeren' : 'leeren',
-'Blaupause wurde gefunden.' : 'Bauplan wurde gefunden.',
-'ist noch erhältlich' : 'ist noch erhältlich',
-'Blaupause ist noch erhältlich.' : 'Bauplan ist noch erhältlich.',
-'bereits gefunden' : 'bereits gefunden',
-'Zone ist leer.' : 'Zone ist leer.',
-'Zone ist regeneriert.' : 'Zone ist regeneriert.',
-'Zombie' : 'Zombie',
-'aktualisieren' : 'aktualisieren',
-'speichern' : 'speichern',
-'Vor 1 Tag war es ein Zombie.' : 'Vor 1 Tag war es ein Zombie.',
-'Vor 1 Tag waren es {%1} Zombies.' : 'Vor 1 Tag waren es {%1} Zombies.',
-'Vor {%1} Tagen war es 1 Zombie.' : 'Vor {%1} Tagen war es 1 Zombie.',
-'Vor {%1} Tagen waren es {%2} Zombies.' : 'Vor {%1} Tagen waren es {%2} Zombies.',
-'Vor 1 Tag waren es 0 Zombies.' : 'Vor 1 Tag waren es 0 Zombies.',
-'Vor {%1} Tagen waren es 0 Zombies.' : 'Vor {%1} Tagen waren es 0 Zombies.',
-'Zombies' : 'Zombies',
-'CHAOS' : 'CHAOS',
-'Ich bin HIER!' : 'Ich bin HIER!',
-'Bürger' : 'Bürger',
-'Gegenstände' : 'Gegenstände',
-'schließen' : 'schließen',
-"Januar" : "Januar",
-"Februar" : "Februar",
-"März" : "März",
-"April" : "April",
-"Mai" : "Mai",
-"Juni" : "Juni",
-"Juli" : "Juli",
-"August" : "August",
-"September" : "September",
-"Oktober" : "Oktober",
-"November" : "November",
-"Dezember" : "Dezember",
-'Letzte Aktualisierung' : 'Letzte Aktualisierung',
-'am' : 'am',
-'Uhr' : 'Uhr',
-'durch' : 'durch',
-'Gebäude unwahrscheinlich' : 'Gebäude unwahrscheinlich',
-'vermutlich doch' : 'vermutlich doch',
-'vermutlich ein Gebäude' : 'vermutlich ein Gebäude',
-'eher nicht' : 'eher nicht',
-'löschen' : 'löschen',
-'Radius' : 'Radius',
-'Zone ist buddelbar.' : 'Zone ist buddelbar.',
-'Vor {%1} Tagen war es ein Zombie.' : 'Vor {%1} Tagen war es ein Zombie.',
-'Gegenstände auf dem Boden' : 'Gegenstände auf dem Boden',
-'Hier ist wahrscheinlich ein Gebäude.' : 'Hier ist wahrscheinlich ein Gebäude.',
-'vermutlich 1 Zombie' : 'vermutlich 1 Zombie',
-'vermutlich {%1} Zombies' : 'vermutlich {%1} Zombies',
-'Heute aktualisiert' : 'Heute aktualisiert',
-'Gestern aktualisiert' : 'Gestern aktualisiert',
-'Vorgestern aktualisiert' : 'Vorgestern aktualisiert',
-'keine Beobachtung' : 'keine Beobachtung',
-'Tag' : 'Tag',
-'Anzeige ausblenden' : 'Anzeige ausblenden',
-'ACHTUNG! Die Expeditionsanzeige ist noch im experimentellen Status.' : 'ACHTUNG! Die Expeditionsanzeige ist noch im experimentellen Status.',
-'Vermutetes Gebäude' : 'Vermutetes Gebäude',
-'Sturm' : 'Sturm',
-'Ein nicht freigeschaufeltes Gebäude.' : 'Ein nicht freigeschaufeltes Gebäude.',
-'Haufen' : 'Haufen',
-'Es ist ein Fehler aufgetreten. Von DV wurde folgender Fehlercode gesendet' : 'Es ist ein Fehler aufgetreten. Von DV wurde folgender Fehlercode gesendet',
-'Keine Änderungen registriert.' : 'Keine Änderungen registriert.',
-'ID' : 'ID',
-'Tod Typ 0' : 'Todesursache unbekannt',
-'Tod Typ 1' : 'Dehydriert',
-'Tod Typ 2' : 'Selbstmord durch Erhängen',
-'Tod Typ 3' : 'Selbstmord durch Zyanid',
-'Tod Typ 4' : 'Volksjustiz (Tod durch Erhängen)',
-'Tod Typ 5' : 'In der Außenwelt verschwunden',
-'Tod Typ 6' : 'Beim gestrigen Angriff aufgefressen',
-'Tod Typ 7' : 'Tod durch Entzug',
-'Tod Typ 8' : 'Tod durch Infektion',
-'Tod Typ 9' : 'Kopfschuss (Account von Admin gelöscht)',
-'Tod Typ 10' : 'Seele aufgelöst (Account gelöscht)',
-'Tod Typ 11' : 'Vergiftet',
-'Tod Typ 12' : 'Vom Ghul gefressen',
-'Tod Typ 13' : 'Aggression (Ghul)',
-'Tod Typ 14' : 'Verhungerter Ghul',
+'Gebäude ist leer.' : 'La ruina está vacía.',
+'regenerieren' : 'regenerar',
+'Gebäude ist durchsuchbar.' : 'Se puede buscar en la ruina.',
+'leeren' : 'vacío',
+'Blaupause wurde gefunden.' : 'Se encontró un plano.',
+'ist noch erhältlich' : 'aún está disponible',
+'Blaupause ist noch erhältlich.' : 'Aún hay un plano disponible.',
+'bereits gefunden' : 'ya encontrado',
+'Zone ist leer.' : 'La zona está vacía.',
+'Zone ist regeneriert.' : 'La zona está regenerada.',
+'Zombie' : 'zombie',
+'aktualisieren' : 'actualizar',
+'speichern' : 'guardar',
+'Vor 1 Tag war es ein Zombie.' : 'Hace un día había un zombie.',
+'Vor 1 Tag waren es {%1} Zombies.' : 'Hace un día habían {%1} zombies.',
+'Vor {%1} Tagen war es 1 Zombie.' : 'Hace {%1} días había un zombie.',
+'Vor {%1} Tagen waren es {%2} Zombies.' : 'Hace {%1} días había {%2} zombies.',
+'Vor 1 Tag waren es 0 Zombies.' : 'Hace un día no había zombies.',
+'Vor {%1} Tagen waren es 0 Zombies.' : 'Hace {%1} días no había zombies.',
+'Zombies' : 'zombies',
+'CHAOS' : 'CAOS',
+'Ich bin HIER!' : '¡Estoy aquí!',
+'Bürger' : 'ciudadano',
+'Gegenstände' : 'objetos',
+'schließen' : 'cerrar',
+"Januar" : "Enero",
+"Februar" : "Febrero",
+"März" : "Marzo",
+"April" : "Abril",
+"Mai" : "Mayo",
+"Juni" : "Junio",
+"Juli" : "Julio",
+"August" : "Agosto",
+"September" : "Septiembre",
+"Oktober" : "Octubre",
+"November" : "Noviembre",
+"Dezember" : "Diciembre",
+'Letzte Aktualisierung' : 'última actualización',
+'am' : 'el',
+'Uhr' : ' ',
+'durch' : 'por',
+'Gebäude unwahrscheinlich' : 'ruina poco probable',
+'vermutlich doch' : 'posible después de todo',
+'vermutlich ein Gebäude' : 'posiblemente una ruina',
+'eher nicht' : 'probablemente no',
+'löschen' : 'borrar',
+'Radius' : 'radio',
+'Zone ist buddelbar.' : 'Se puede buscar en la zona.',
+'Vor {%1} Tagen war es ein Zombie.' : 'Hace {%1} días había un zombie.',
+'Gegenstände auf dem Boden' : 'objetos en el suelo',
+'Hier ist wahrscheinlich ein Gebäude.' : 'Probablemente aquí haya una ruina.',
+'vermutlich 1 Zombie' : 'probablemente 1 zombie',
+'vermutlich {%1} Zombies' : 'probablemente {%1} zombies',
+'Heute aktualisiert' : 'actualizado hoy',
+'Gestern aktualisiert' : 'actualizado ayer',
+'Vorgestern aktualisiert' : 'actualizado anteayer',
+'keine Beobachtung' : 'sin observaciones',
+'Tag' : 'día',
+'Anzeige ausblenden' : 'ocultar visualización',
+'ACHTUNG! Die Expeditionsanzeige ist noch im experimentellen Status.' : '¡ATENCIÓN! La visualización de las expediciones aún está en estado experimental.',
+'Vermutetes Gebäude' : 'supuesta ruina',
+'Sturm' : 'tormenta',
+'Ein nicht freigeschaufeltes Gebäude.' : 'Una ruina cubierta de escombros.',
+'Haufen' : 'escombros',
+'Es ist ein Fehler aufgetreten. Von DV wurde folgender Fehlercode gesendet' : 'Ha ocurrido un error. Zombinoia envió este código',
+'Keine Änderungen registriert.' : 'Sin cambios registrados.',
+'ID' : 'ID'
 }); 
 
 // fm code
@@ -133,15 +118,7 @@ function updateMapRulers(mapZone) {
 	$('#map .mapruler').removeClass('hoverzone');
 	$('#map .mapruler.ruler_y'+ry+',#map .mapruler.ruler_x'+rx ).addClass('hoverzone');
 }
-function updateRuinMapRulers(mapZone) {
-  var rx = mapZone.attr('rx');
-  var ry = mapZone.attr('ry');
-  $('#ruinmap .mapruler').removeClass('hoverzone');
-  $('#ruinmap .mapruler.ruler_y'+ry+',#ruinmap .mapruler.ruler_x'+rx ).addClass('hoverzone');
-}
 function selectZone(mapZone) {
-	$('#item-selector').addClass('hideme');
-	$('#building-selector').addClass('hideme');
 	var rx = mapZone.attr('rx');
 	var ry = mapZone.attr('ry');
 	$('#map .mapzone, #map .mapruler').removeClass('selectedZone');
@@ -160,64 +137,43 @@ function updateBox(x,y,rx,ry) {
 	$('#item-selector').addClass('hideme');
 	delete data.saveItems;
 	var infoBox = $('#box-content #zone-info');
-  if ( !(rx == 0 && ry == 0) ) {
-    infoBox.html('<h3>'+__('Zone')+' ['+rx+'|'+ry+']</h3>');
-    infoBox.append('<p>'+__('Entfernung')+': '+ calcAP(rx,ry) +__('AP')+', '+ calcKM(rx,ry) +__('km')+'</p>');
-  }
-  else {
-    infoBox.html('<h3>'+__('Stadt')+' ['+rx+'|'+ry+']</h3>');
-  }
+	infoBox.html('<h3>'+__('Zone')+' ['+rx+'|'+ry+']</h3>');
+	infoBox.append('<p>'+__('Entfernung')+': '+ calcAP(rx,ry) +__('AP')+', '+ calcKM(rx,ry) +__('km')+'</p>');
 	if ( data.map['y'+y] != undefined && data.map['y'+y]['x'+x] != undefined ) { 
 		if ( zone = data.map['y'+y]['x'+x] ) {
 			// building
 			if ( zone.building != undefined ) {
-        if (!isExplorable(zone.building.type) && zone.building.type != -1) {
-          if ( zone.building.dried != undefined && zone.building.dried == 1 ) {
-            if ( data.spy == undefined ) {
-              infoBox.append('<p class="zone-building"><strong>'+ zone.building.name +'</strong><br/><span class="minus">'+__('Gebäude ist leer.')+'</span> <a class="interactive plus ajaxlink" href="/fatamorgana/update/building/regenerate" id="BUILDING-REGENERATE" ocx="'+x+'" ocy="'+y+'">'+__('regenerieren')+'</a></p>');
-            }
-            else {
-              infoBox.append('<p class="zone-building"><strong>'+ zone.building.name +'</strong><br/><span class="minus">'+__('Gebäude ist leer.')+'</span></p>');
-            }
-          }
-          else {
-            if ( data.spy == undefined ) {
-              infoBox.append('<p class="zone-building"><strong>'+ zone.building.name +'</strong><br/><span class="plus">'+__('Gebäude ist durchsuchbar.')+'</span> <a class="interactive minus ajaxlink" href="/fatamorgana/update/building/deplete" id="BUILDING-DEPLETE" ocx="'+x+'" ocy="'+y+'">'+__('leeren')+'</a></p>');
-            }
-            else {
-              infoBox.append('<p class="zone-building"><strong>'+ zone.building.name +'</strong><br/><span class="plus">'+__('Gebäude ist durchsuchbar.')+'</span></p>');
-            }
-          }
-          if ( zone.building.blueprint != undefined && zone.building.blueprint == 1 ) {
-            if ( data.spy == undefined ) {
-              infoBox.append('<p class="zone-building"><span class="minus">'+__('Blaupause wurde gefunden.')+'</span> <a class="interactive plus ajaxlink" href="/fatamorgana/update/blueprint/available" id="BLUEPRINT-AVAILABLE" ocx="'+x+'" ocy="'+y+'">'+__('ist noch erhältlich')+'</a></p>');
-            }
-            else {
-              infoBox.append('<p class="zone-building"><span class="minus">'+__('Blaupause wurde gefunden.')+'</span></p>');
-            }
-          }
-          else {
-            if ( data.spy == undefined ) {
-              infoBox.append('<p class="zone-building"><span class="plus">'+__('Blaupause ist noch erhältlich.')+'</span> <a class="interactive minus ajaxlink" href="/fatamorgana/update/blueprint/found" id="BLUEPRINT-FOUND" ocx="'+x+'" ocy="'+y+'">'+__('bereits gefunden')+'</a></p>');
-            }
-            else {
-              infoBox.append('<p class="zone-building"><span class="plus">'+__('Blaupause ist noch erhältlich.')+'</span></p>');
-            }
-          }
-        }
-        else if (isExplorable(zone.building.type)) {
-          infoBox.append('<p class="zone-building"><strong>'+ zone.building.name +'</strong><br/><span class="">'+__('Begehbare Ruine:')+'</span> <a class="interactive explore" href="#" id="ENTER-BUILDING" ocx="'+x+'" ocy="'+y+'">'+__('Gebäude betreten.')+'</a></p>');
-        }
-				else {
-					infoBox.append('<p class="zone-building"><strong>'+ zone.building.name +'</strong> <span class="minus">'+__('{%1} Haufen',[zone.building.dig])+'</span><br/>');
-					if ( zone.building.guess != undefined ) {
-						infoBox.append('Aufklärer: '+data.buildings[zone.building.guess]);
-						infoBox.append(' <a class="toggle-building-update interactive" href="#" id="GUESS-BUILDING" ocx="'+x+'" ocy="'+y+'">'+__('Vermutung ändern')+'</a>');
+				if ( zone.building.dried != undefined && zone.building.dried == 1 ) {
+					if ( data.spy == undefined ) {
+						infoBox.append('<p class="zone-building"><strong>'+ zone.building.name +'</strong><br/><span class="minus">'+__('Gebäude ist leer.')+'</span> <a class="interactive plus ajaxlink" href="/fatamorgana/update/building/regenerate" id="BUILDING-REGENERATE" ocx="'+x+'" ocy="'+y+'">'+__('regenerieren')+'</a></p>');
 					}
 					else {
-						infoBox.append('<a class="toggle-building-update interactive" href="#" id="GUESS-BUILDING" ocx="'+x+'" ocy="'+y+'">'+__('Vermutung angeben')+'</a>');
+						infoBox.append('<p class="zone-building"><strong>'+ zone.building.name +'</strong><br/><span class="minus">'+__('Gebäude ist leer.')+'</span></p>');
 					}
-					infoBox.append('</p>');
+				}
+				else {
+					if ( data.spy == undefined ) {
+						infoBox.append('<p class="zone-building"><strong>'+ zone.building.name +'</strong><br/><span class="plus">'+__('Gebäude ist durchsuchbar.')+'</span> <a class="interactive minus ajaxlink" href="/fatamorgana/update/building/deplete" id="BUILDING-DEPLETE" ocx="'+x+'" ocy="'+y+'">'+__('leeren')+'</a></p>');
+					}
+					else {
+						infoBox.append('<p class="zone-building"><strong>'+ zone.building.name +'</strong><br/><span class="plus">'+__('Gebäude ist durchsuchbar.')+'</span></p>');
+					}
+				}
+				if ( zone.building.blueprint != undefined && zone.building.blueprint == 1 ) {
+					if ( data.spy == undefined ) {
+						infoBox.append('<p class="zone-building"><span class="minus">'+__('Blaupause wurde gefunden.')+'</span> <a class="interactive plus ajaxlink" href="/fatamorgana/update/blueprint/available" id="BLUEPRINT-AVAILABLE" ocx="'+x+'" ocy="'+y+'">'+__('ist noch erhältlich')+'</a></p>');
+					}
+					else {
+						infoBox.append('<p class="zone-building"><span class="minus">'+__('Blaupause wurde gefunden.')+'</span></p>');
+					}
+				}
+				else {
+					if ( data.spy == undefined ) {
+						infoBox.append('<p class="zone-building"><span class="plus">'+__('Blaupause ist noch erhältlich.')+'</span> <a class="interactive minus ajaxlink" href="/fatamorgana/update/blueprint/found" id="BLUEPRINT-FOUND" ocx="'+x+'" ocy="'+y+'">'+__('bereits gefunden')+'</a></p>');
+					}
+					else {
+						infoBox.append('<p class="zone-building"><span class="plus">'+__('Blaupause ist noch erhältlich.')+'</span></p>');
+					}
 				}
 			}
 			// regeneration
@@ -240,7 +196,7 @@ function updateBox(x,y,rx,ry) {
 			// zombies
 			if ( !(rx == 0 && ry == 0) ) {
 				var diff = 0, days = 0;
-				if ( zone.updatedOn != undefined && zone.nvt != 0 ) {
+				if ( zone.updatedOn != undefined ) {
 					var date = new Date(zone.updatedOn * 1000);
 					var dateN = new Date();
 					dateN.setHours(23);
@@ -304,61 +260,36 @@ function updateBox(x,y,rx,ry) {
 					infoBox.append('<p class="zone-citizens">'+ cc +' '+__('Bürger')+': '+ clist +'</p>');
 				}
 			}
-			
-			// lost souls
-			if ( !(rx == 0 && ry == 0) ) {
-        if ( zone['lostsoul'] == undefined || zone['lostsoul'] == 0 ) {
-          if ( data.spy == undefined ) {
-            infoBox.append('<p class="zone-soul zone-soul-0">'+__('Keine verirrte Seele')+' <a class="interactive plus ajaxlink" href="/fatamorgana/update/zone/addsoul" id="ZONE-ADDSOUL" ocx="'+x+'" ocy="'+y+'">'+__('hinzufügen')+'</a></p>');
-          }
-          else {
-            infoBox.append('<p class="zone-soul zone-soul-0">'+__('Keine verirrte Seele')+'</p>');
-          }
-        }
-        else {
-          if ( data.spy == undefined ) {
-            infoBox.append('<p class="zone-soul zone-soul-1"><img src="'+data.system.icon+'tag_12.gif" /> <span class="plus">'+__('Hier spukt es.')+'</span> <a class="interactive minus ajaxlink" href="/fatamorgana/update/zone/delsoul" id="ZONE-DELSOUL" ocx="'+x+'" ocy="'+y+'">'+__('Seele entfernen')+'</a></p>');
-          }
-          else {
-            infoBox.append('<p class="zone-soul zone-soul-1"><img src="'+data.system.icon+'tag_12.gif" /> <span class="plus">'+__('Hier spukt es..')+'</span></p>');
-          }
-        }
-      }
-			
 			// items
-			if ( !(rx == 0 && ry == 0) ) {
-        if ( data.spy == undefined ) {
-          infoBox.append('<p class="zone-items-header"><span>'+__('Gegenstände')+'</span> <a class="toggle-item-update interactive" href="/fatamorgana/update/items" id="ZONE-ITEMS" ocx="'+x+'" ocy="'+y+'">'+__('aktualisieren')+'</a></p>');
-        }
-        else {
-          infoBox.append('<p class="zone-items-header"><span>'+__('Gegenstände')+'</span></p>');
-        }
-        infoBox.append('<div id="zi_x'+rx+'_y'+ry+'" class="zone-items clearfix"></div>');
-        if ( zone['items'] != undefined && !(rx == 0 && ry == 0) ) {
-          for ( i in zone.items ) {
-            var item = zone.items[i];
-            $('#zi_x'+rx+'_y'+ry).append(createItemDisplay(item.id,item.count,item.broken));
-          }
-        }
-        if ( data.spy == undefined ) {
-          infoBox.append('<p class="zone-items-footer hideme"><a class="close-item-selector minus interactive" href="close">'+__('schließen')+'</a>&nbsp;&nbsp;&nbsp;<a class="ajaxsave plus interactive" href="/fatamorgana/update/items" id="ZONE-ITEMS" ocx="'+x+'" ocy="'+y+'">'+__('speichern')+'</a></p>');
-        }
-      }
+			if ( data.spy == undefined ) {
+				infoBox.append('<p class="zone-items-header"><span>'+__('Gegenstände')+'</span> <a class="toggle-item-update interactive" href="/fatamorgana/update/items" id="ZONE-ITEMS" ocx="'+x+'" ocy="'+y+'">'+__('aktualisieren')+'</a></p>');
+			}
+			else {
+				infoBox.append('<p class="zone-items-header"><span>'+__('Gegenstände')+'</span></p>');
+			}
+			infoBox.append('<div id="zi_x'+rx+'_y'+ry+'" class="zone-items clearfix"></div>');
+			if ( zone['items'] != undefined && !(rx == 0 && ry == 0) ) {
+				for ( i in zone.items ) {
+					var item = zone.items[i];
+					$('#zi_x'+rx+'_y'+ry).append(createItemDisplay(item.id,item.count,item.broken));
+				}
+			}
+			if ( data.spy == undefined ) {
+				infoBox.append('<p class="zone-items-footer hideme"><a class="close-item-selector minus interactive" href="close">'+__('schließen')+'</a>&nbsp;&nbsp;&nbsp;<a class="ajaxsave plus interactive" href="/fatamorgana/update/items" id="ZONE-ITEMS" ocx="'+x+'" ocy="'+y+'">'+__('speichern')+'</a></p>');
+			}
 			
 			// update status
-			if ( !(rx == 0 && ry == 0) ) {
-        var monat = new Array(__("Januar"), __("Februar"), __("März"), __("April"), __("Mai", "Juni"), __("Juli"), __("August"), __("September"), __("Oktober"), __("November"), __("Dezember"));
-        var updText = __('Letzte Aktualisierung')+' ';
-        if ( zone.updatedOn != undefined ) {
-          var date = new Date(zone.updatedOn * 1000);
-          
-          updText += __('am')+' ' + date.getDate() + '. ' + monat[date.getMonth() - 1] + ' ' + date.getFullYear() + ', ' + date.getHours() + ':' + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()) + ' '+__('Uhr')+' ';
-        }
-        if ( zone.updatedBy != undefined ) {
-          updText += __('durch')+' ' + zone.updatedBy;
-        }
-        infoBox.append('<p class="zone-lastupdate">'+updText+'</p>');
-      }
+			var monat = new Array(__("Januar"), __("Februar"), __("März"), __("April"), __("Mai", "Juni"), __("Juli"), __("August"), __("September"), __("Oktober"), __("November"), __("Dezember"));
+			var updText = __('Letzte Aktualisierung')+' ';
+			if ( zone.updatedOn != undefined ) {
+				var date = new Date(zone.updatedOn * 1000);
+				
+				updText += __('am')+' ' + date.getDate() + '. ' + monat[date.getMonth()] + ' ' + date.getFullYear() + ', ' + date.getHours() + ':' + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()) + ' '+__('Uhr')+' ';
+			}
+			if ( zone.updatedBy != undefined ) {
+				updText += __('durch')+' ' + zone.updatedBy;
+			}
+			infoBox.append('<p class="zone-lastupdate">'+updText+'</p>');
 		}
 	}
 	else {
@@ -393,24 +324,12 @@ function updateBox(x,y,rx,ry) {
 			if ( upo != 0 && upb != 0 ) {
 				var updText = __('Letzte Aktualisierung')+' ';
 				var date = new Date(upo * 1000);
-				updText += __('am')+' ' + date.getDate() + '. ' + monat[date.getMonth() - 1] + ' ' + date.getFullYear() + ', ' + date.getHours() + ':' + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()) + ' '+__('Uhr')+' ';
+				updText += __('am')+' ' + date.getDate() + '. ' + monat[date.getMonth()] + ' ' + date.getFullYear() + ', ' + date.getHours() + ':' + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()) + ' '+__('Uhr')+' ';
 				updText += __('durch')+' ' + upb;
 				infoBox.append('<p class="zone-lastupdate">'+updText+'</p>');
 			}
 		}
 	}
-}
-function selectRuinZone(mapZone) {
-  var rx = mapZone.attr('rx');
-  var ry = mapZone.attr('ry');
-	data.crx = rx;
-	data.cry = ry;
-  $('#ruinmap .mapzone, #ruinmap .mapruler').removeClass('selectedZone');
-  $('#ruinmap #x'+rx+'y'+ry+',#ruinmap .mapruler.ruler_y'+ry+',#ruinmap .mapruler.ruler_x'+rx).addClass('selectedZone');
-  var ax = mapZone.attr('ax');
-  var ay = mapZone.attr('ay');
-  $('#ruinZone').html(__('Ausgewähltes Gebäudefeld:')+' '+'<span id="ruinCX">'+rx+'</span>'+'|'+'<span id="ruinCY">'+ry+'</span>');
-	$('#ruinComment').val(mapZone.attr('comment'));
 }
 function createItemDisplay(id,count,broken) {
 	if ( data.items[id] != undefined ) {
@@ -429,10 +348,6 @@ function createItemDisplaySmall(id) {
 	var classDef = raw_item.category == 'Armor' ? ' defense' : '';
 	return '<div class="select-item click'+classBroken+classDef+'" ref="'+raw_item.id+'"><img src="'+data.system.icon+'item_'+raw_item.image+'.gif" title="'+raw_item.name+' (ID: '+Math.abs(id)+')" /></div>';
 
-}
-function createBuildingDisplaySmall(id) {
-	var name = data.buildings[id];
-	return '<div class="select-building click" ref="'+id+'">'+name+'</div>';
 }
 function calcAP(x,y) {
 	return Math.abs(x) + Math.abs(y);
@@ -553,37 +468,7 @@ function walkInTheDesert(e) {
             initClick = true;
         }
         if ( initClick ) {
-            $('#map #x'+(data.cx)+'y'+(data.cy)).click();
-        }
-    }
-}
-function walkInTheRuin(e) {
-
-    if ( data.crx == undefined || data.cry == undefined ) { // current coords not set
-        data.crx = 0;
-				data.cry = 1;
-    }
-    if ( e.which >= 37 && e.which <= 40 ) {
-				e.preventDefault();
-        var initClick = false;
-        if ( e.which == '37' && data.crx > -7 ) {
-            data.crx -= 1;
-            initClick = true;
-        }
-        if ( e.which == '40' && data.cry < 13 ) {
-            data.cry = parseInt(data.cry) + 1;
-            initClick = true;
-        }
-        if ( e.which == '39' && data.crx < 5 ) {
-            data.crx = parseInt(data.crx) + 1;
-            initClick = true;
-        }
-        if ( e.which == '38' && data.cry > 1 ) {
-            data.cry -= 1;
-            initClick = true;
-        }
-        if ( initClick ) {
-            $('#ruinmap #x'+(data.crx)+'y'+(data.cry)).click();
+            $('#x'+(data.cx)+'y'+(data.cy)).click();
         }
     }
 }
@@ -663,7 +548,7 @@ function fillMapHover(z) {
 		if ( data.map['y'+ay]['x'+ax]['z'] != undefined ) {
 			var zone = data.map['y'+ay]['x'+ax];
 			var diff = 0, days = 0;
-			if ( zone.updatedOn != undefined && zone.nvt != 0 ) {
+			if ( zone.updatedOn != undefined ) {
 				var date = new Date(zone.updatedOn * 1000);
 				var dateN = new Date();
 				dateN.setHours(23);
@@ -791,29 +676,6 @@ function ajaxInfo(msg) {
 	$('#userInfoBox').append(responseItem);
 	responseItem.hide().removeClass('hideme').slideDown(250).delay(2500).slideUp(500);
 }
-function ajaxRuinUpdate(ocAction,z) {
-	var token = secureKey;
-	var ocX = $('.ruinCoordsX').html();
-	var ocY = $('.ruinCoordsY').html();
-	var riX = parseInt($('#ruinCX').html());
-	var riY = parseInt($('#ruinCY').html());
-	if ( riY > 0 ) {
-		var ocAD = riX + '|' + riY + '|' + z;
-		/*protectRuinBox(true);*/
-		$.ajax({
-			type: "POST",
-			url: "/fatamorgana/map/update",
-			data: "key="+token+"&action="+ocAction+"&x="+ocX+"&y="+ocY+"&z="+ocAD,
-			success: function(msg) {
-				$('#dynascript').append(msg);
-				/*protectRuinBox(false);*/
-			}
-		});
-	}
-	else {
-		ajaxInfo(__('Bitte gültiges Feld wählen.'));
-	}
-}
 function generateMapZone(i,j) {
 	var ax = j;
 	var ay = i;
@@ -901,11 +763,9 @@ function generateMapZone(i,j) {
 		}
 		if (data.map[my][mx]['z'] != undefined)	{
 			var zc = parseInt(data.map[my][mx]['z']) + diff;
-      var zl = parseInt(data.map[my][mx]['z']);
 		}
 		else {
 			var zc = diff;
-      var zl = 0;
 		}
 		
 		if ( data.map[my][mx]['danger'] != undefined && data.map[my][mx]['danger'] != null ) {
@@ -919,22 +779,22 @@ function generateMapZone(i,j) {
 			if ( zc > 0 ) {
 				mapzone.attr('e',zc);
 			}
-			if ( zl == 0 ) {
+			if ( zc == 0 ) {
 				mapzone.addClass('danger0');
 			}
-			else if ( zl == 1 ) {
+			else if ( zc == 1 ) {
 				mapzone.addClass('danger1');
 				rzd = 1;
 			}
-			else if ( zl >= 2 && zl <= 4 ) {
+			else if ( zc >= 2 && zc <= 4 ) {
 				mapzone.addClass('danger2');
 				rzd = 2;
 			}
-			else if ( zl >= 5 && zl <= 8 ) {
+			else if ( zc >= 5 && zc <= 8 ) {
 				mapzone.addClass('danger3');
 				rzd = 3;
 			}
-			else if ( zl > 8 ) {
+			else if ( zc > 8 ) {
 				mapzone.addClass('danger4');
 				rzd = 4
 			}
@@ -953,24 +813,14 @@ function generateMapZone(i,j) {
 		}
 		if ( data.map[my][mx]['building'] != undefined && !(rx == 0 && ry == 0) ) {
 			var building = $(document.createElement('div')).addClass('building');
-      if (!isExplorable(data.map[my][mx]['building']['type'])) {
-        if ( data.map[my][mx]['building']['dried'] == 1 ) {
-          building.addClass('depleted-building');
-        }
-        if ( data.map[my][mx]['building']['blueprint'] == undefined || data.map[my][mx]['building']['blueprint'] == 0 ) {
-          building.addClass('building-blueprint');
-        }
-      }
-      else {
-        building.addClass('explorable-building');
-      }
+			if ( data.map[my][mx]['building']['dried'] == 1 ) {
+				building.addClass('depleted-building');
+			}
+			if ( data.map[my][mx]['building']['blueprint'] == undefined || data.map[my][mx]['building']['blueprint'] == 0 ) {
+				building.addClass('building-blueprint');
+			}
 			mapzone.append(building);
 		}
-		if ( data.map[my][mx]['lostsoul'] != undefined && data.map[my][mx]['lostsoul'] == 1 && !(rx == 0 && ry == 0)) {
-      mapzone.addClass('lostsoul');
-      var lostsoul = $(document.createElement('div')).addClass('lostsoul');
-      mapzone.append(lostsoul);
-    }
 		if ( data.map[my][mx]['dried'] != undefined && !(rx == 0 && ry == 0) ) {
 			var zsi = $(document.createElement('img')).addClass('zone-status-img');
 			if (data.map[my][mx]['dried'] == 1) {
@@ -998,10 +848,6 @@ function generateMapZone(i,j) {
 			}					
 			else if ( udate.getDate() == bdate.getDate() && udate.getMonth() == bdate.getMonth() ) {
 				var utd = $(document.createElement('div')).addClass('zone-updated').addClass('zone-updated-b4yesterday').attr('title',__('Vorgestern aktualisiert'));
-				mapzone.append(utd);
-			}
-			else {
-				var utd = $(document.createElement('div')).addClass('zone-updated').addClass('zone-updated-longago').attr('title',__('Irgendwann mal aktualisiert'));
 				mapzone.append(utd);
 			}
 		}
@@ -1060,11 +906,6 @@ function populateItemSelector() {
 		$('#item-selector-'+data.items[i]['category']).append(createItemDisplaySmall(i));
 	}
 }
-function populateBuildingSelector() {
-	for ( i in data.buildings ) {
-		$('#building-selector').append(createBuildingDisplaySmall(i));
-	}
-}
 function zoneItemList(x,y) {
 	this.x = x;
 	this.y = y;
@@ -1075,19 +916,6 @@ function saveZoneItems(x,y,serial) {
 		type: "POST",
 		url: "/fatamorgana/map/update",
 		data: "key="+secureKey+"&action=ZONE-ITEMS&x="+(parseInt(x) + parseInt(data.tx))+"&y="+(parseInt(data.ty) - parseInt(y))+"&z="+serial,
-		success: function(msg) {
-			//alert(msg);
-			$('#dynascript').append(msg);
-			protectBox(false);
-		}
-	});
-}
-function saveBuildingGuess(x,y,bID) {
-	protectBox(true);
-	$.ajax({
-		type: "POST",
-		url: "/fatamorgana/map/update",
-		data: "key="+secureKey+"&action=BUILDING-GUESS&x="+(parseInt(x) + parseInt(data.tx))+"&y="+(parseInt(data.ty) - parseInt(y))+"&z="+bID,
 		success: function(msg) {
 			//alert(msg);
 			$('#dynascript').append(msg);
@@ -1142,9 +970,8 @@ function generateExpeditionList() {
 	var expList = $(document.createElement('ul')).addClass('exp-list');
 	for ( e in data.expeditions ) {
 		var expData = data.expeditions[e];
-		var expEntry = $(document.createElement('li')).addClass('exp-item click').attr('id', e).html(expData.name);
+		var expEntry = $(document.createElement('li')).addClass('exp-item click').attr('id', expData.day + '.' + expData.creator).html(expData.name);
 		expList.prepend(expEntry);
-		// expData.day + '.' + expData.creator
 	}
 	expList.prepend($(document.createElement('li')).addClass('exp-item click active-option').attr('id', '0.0').html(__('Anzeige ausblenden')));
 	expBox.html('<p>'+__('ACHTUNG! Die Expeditionsanzeige ist noch im experimentellen Status.')+'</p>').append(expList);	
@@ -1158,8 +985,6 @@ function highlightRoute(r) {
 		var c = 0;
 		for ( p in route ) {
 			c++;
-			//alert("highlightZone("+(parseInt(p.x) - parseInt(data.tx))+", "+(parseInt(data.ty) - parseInt(p.y))+");");
-			//highlightZone((parseInt(route[p].x) - parseInt(data.tx)), (parseInt(data.ty) - parseInt(route[p].y)));
 			var px = parseInt(route[p].x) - parseInt(data.tx);
 			var py = parseInt(data.ty) - parseInt(route[p].y);
 			setTimeout("highlightRouteZone("+px+","+py+","+c+")",delayTimer);
@@ -1183,15 +1008,11 @@ function generateRuinList() {
 	var awrTable = $(document.createElement('table')).addClass('awr-table');
 	var awr = {};
 	var a = 0;
-  var zones = 0;
-  var ruins = 0;
 	for ( y in data.map ) {
 		var yrow = data.map[y];
 		for ( x in yrow ) {
-      zones++;
 			var xcell = yrow[x];
 			if ( xcell.building != undefined ) {
-        ruins++;
 				var bdata = xcell.building;
 				bdata['x'] = xcell.rx;
 				bdata['y'] = xcell.ry;
@@ -1200,14 +1021,11 @@ function generateRuinList() {
 				if ( bdata['blueprint'] == undefined ) {
 					bdata['blueprint'] = 0;
 				}
-				bdata['explorable'] = isExplorable(bdata['type']);
 				var gdn = calcGDN(xcell['rx'], xcell['ry']);
 				if ( awr[gdn] == undefined ) {
 					awr[gdn] = {};
 				}
-				if ( bdata['x'] != undefined && bdata['y'] != undefined ) {
-					awr[gdn][a] = bdata;
-				}
+				awr[gdn][a] = bdata;
 				a++;
 			}
 		}
@@ -1251,303 +1069,32 @@ function generateRuinList() {
 		var gdl = awr[gdn];
 		for ( i in gdl ) {
 			var b = gdl[i];
-			var awrRow = $(document.createElement('tr')).addClass('awr-entry').html('<td class="pos-stat '+(b.dried != undefined && b.dried == 1 ? 'ruin-empty' : 'ruin-regen')+'"><abbr onmouseover="highlightSpecialZone('+b.x+','+b.y+');" onmouseout="downdarkSpecialZone('+b.x+','+b.y+');" onclick="$(\'#x'+(b.x)+'y'+(b.y)+'\').click();" class="ruin-coords" title="'+b.ap+'AP ('+b.km+'km)">['+b.x+'|'+b.y+']</abbr></td><td>'+'<img src="/fatamorgana/css/img/'+(b.explorable == true ? 'explore' : (b.blueprint != undefined && b.blueprint == 1 ? 'no-bp' : 'bp'))+'.png">'+'</td><td>'+(b.name != __('Ein nicht freigeschaufeltes Gebäude.') ? b.name : '<em style="color:#c00;"> '+b.dig+' '+__('Haufen')+' <img style="vertical-align:text-bottom;height:14px;" src="http://www.dieverdammten.de/gfx/forum/smiley/h_dig.gif"></em>' )+'</td>');
+			var awrRow = $(document.createElement('tr')).addClass('awr-entry').html('<td class="pos-stat '+(b.dried != undefined && b.dried == 1 ? 'ruin-empty' : 'ruin-regen')+'"><abbr onmouseover="highlightSpecialZone('+b.x+','+b.y+');" onmouseout="downdarkSpecialZone('+b.x+','+b.y+');" onclick="$(\'#x'+(b.x)+'y'+(b.y)+'\').click();" class="ruin-coords" title="'+b.ap+'AP ('+b.km+'km)">['+b.x+'|'+b.y+']</abbr></td><td><img src="/fatamorgana/css/img/'+(b.blueprint != undefined && b.blueprint == 1 ? 'no-bp' : 'bp')+'.png"></td><td>'+(b.name != __('Ein nicht freigeschaufeltes Gebäude.') ? b.name : '<em style="color:#c00;"> '+b.dig+' '+__('Haufen')+' <img style="vertical-align:text-bottom;height:14px;" src="http://www.dieverdammten.de/gfx/forum/smiley/h_dig.gif"></em>' )+'</td>');
 			awrTable.append(awrRow);
 		}
 	}
-	awrBox.html('<p class="desc">' + __('{%1} von {%2} Zonen entdeckt ({%3}%).',[zones, (data.height * data.width), Math.round(zones / data.height / data.width * 100)]) + '<br>' + __('{%1} von 21 Ruinen entdeckt ({%2}%).',[ruins, Math.round(ruins / 21 * 100)]) + '</p>').append(awrTable);	
+	awrBox.html('').append(awrTable);	
 }
 function generateCitizenList() {
-	if ( data.citizens != undefined ) {
-    var citBox = $('#citizens');
-    var citTable = $(document.createElement('table')).addClass('cit-table');
-    var cit = [];
-    
-    for ( cid in data.citizens ) {
-      cit.push([cid, data.citizens[cid]['name']]);
-    }
-    cit.sort(function(a,b) { return a[1] > b[1] });
-    
-    for ( cco in cit ) {
-      var ctd = data.citizens[cit[cco][0]];
-      if (data.system.chaos == 0) {
-        var citRow = $(document.createElement('tr')).addClass('cit-entry').html('<td class="pos-stat"><abbr onmouseover="highlightSpecialZone('+ctd.rx+','+ctd.ry+');" onmouseout="downdarkSpecialZone('+ctd.rx+','+ctd.ry+');" onclick="$(\'#x'+(ctd.rx)+'y'+(ctd.ry)+'\').click();" class="ruin-coords">['+ctd.rx+'|'+ctd.ry+']</abbr></td><td>'+ctd.name+'</td>');
-      }
-      else {
-        var citRow = $(document.createElement('tr')).addClass('cit-entry').html('<td class="pos-stat"><abbr class="ruin-coords">[??|??]</abbr></td><td>'+ctd.name+'</td>');
-      }
-      citTable.append(citRow);
-    }
-    citBox.html('').append(citTable);	
-  }
-  if ( data.cadavers != undefined ) {
-    var citTable = $(document.createElement('table')).addClass('cad-table');
-        
-    for (var d = data.system.day; d > 0; d--) {
-      if ( data.cadavers[d] != undefined ) {
-        var citRow = $(document.createElement('tr')).addClass('cad-day').html('<td colspan="2">' + __('Tag') + ' ' + d + '</td>');
-        citTable.append(citRow);
-        
-        var cit = [];
-        for ( cid in data.cadavers[d] ) {
-          cit.push([cid, data.cadavers[d][cid]['name']]);
-          reMoveCitizen(cid);
-        }
-        cit.sort(function(a,b) { return a[1] > b[1] });
-        
-        for ( cco in cit ) {
-          var ctd = data.cadavers[d][cit[cco][0]];
-          var citRow = $(document.createElement('tr')).addClass('cad-entry').html('<td class="dtype dtype-'+ctd.dtype+'" title="'+__('Tod Typ '+ctd.dtype)+'"></td><td '+(ctd.rx != undefined ? 'title="'+__('Letzter bekannter Aufenthaltsort')+': ['+ctd.rx+'|'+ctd.ry+']"' : '')+'>'+ctd.name+'</td>');
-          citTable.append(citRow);
-        }
-      }
-    }
-    citBox.append(citTable);
-  }
-}
-function generateConstructionList() {
-  var conBox = $('#town-info');
-	conBox.html('');
-	if (data.constructions != undefined && Object.keys(data.constructions).length > 0 && data.mconstructions != undefined && data.mconstructions.length > 0) {
-		var conHelpBox = $(document.createElement('p')).addClass('desc').html(__('Die XML-Daten sind aktuell, aber nicht sehr informativ. Die manuell übertragenen Daten haben höheren Informationswert, können aber nur von Hand an die FM gesendet werden.'));
-		var switchXML = $(document.createElement('a')).addClass('constructions-xml interactive click').html('XML');
-		var switchMAN = $(document.createElement('a')).addClass('constructions-man interactive click').html('Manuell');
-		conHelpBox.prepend(switchMAN).prepend(switchXML);
-		conBox.append(conHelpBox);
+	if ( data.citizens == undefined ) {
+		return false;
+	}	
+	var citBox = $('#citizens');
+	var citTable = $(document.createElement('table')).addClass('cit-table');
+	var cit = [];
+	
+	for ( cid in data.citizens ) {
+		cit.push([cid, data.citizens[cid]['name']]);
 	}
-  var con = {};
-  var a = 0;
-  if (data.constructions != undefined && Object.keys(data.constructions).length > 0) {
-		var conTable = $(document.createElement('table')).addClass('construction-table construction-table-xml');
-    var conHeaderRow = $(document.createElement('tr')).addClass('construction-header').html('<th colspan="2">'+__('Konstruktionen')+'</th>');
-    conTable.append(conHeaderRow);
-    for ( c in data.constructions ) {
-      var concon = data.constructions[c];
-      if ( concon.level != undefined ) {
-        var level = ' (' + concon.level + ')';
-      }
-      else {
-        var level = '';
-      }
-      var conRow = $(document.createElement('tr')).addClass('con-entry').html('<td class="con-icon'+(concon.temp == 1 ? ' temporary' : '')+'"><img src="http://data.dieverdammten.de/gfx/icons/'+concon.image+'.gif" /></td><td>'+concon.name+level+'</td>');
-        conTable.append(conRow);
-    }
-		conBox.append(conTable);
-  }
-  if (data.mconstructions != undefined && data.mconstructions.length > 0) {
-    var conTable = $(document.createElement('table')).addClass('construction-table construction-table-man');
-		if (data.constructions != undefined && Object.keys(data.constructions).length > 0) {
-			conTable.addClass('hideme');
-		}
-    if ( data.mconststamp != undefined ) {
-			var conUpdateRow = $(document.createElement('tr')).addClass('construction-update').html('<td colspan="3">'+__('Stand: ')+data.mconststamp+' '+__('Uhr')+'</td>');
-			conTable.append(conUpdateRow);
-		}
-		var conHeaderRow = $(document.createElement('tr')).addClass('construction-header').html('<th colspan="2">'+__('Konstruktion')+'</th><th>'+__('???')+'</th>');
-    conTable.append(conHeaderRow);
-		var mconid = 0;
-    for ( c in data.mconstructions ) {
-			mconid++;
-      var concon = data.mconstructions[c];
-      if ( concon.level != undefined ) {
-        var level = ' (' + concon.level + ')';
-      }
-      else {
-        var level = '';
-      }
-      var conRow = $(document.createElement('tr')).addClass('mcon-entry').addClass((concon.done == 1 ? 'mcon-done': (concon.lock == 1 ? 'mcon-lock' : 'mcon-active'))).addClass((mconid % 2 == 1 ? 'odd': 'even')).html('<td class="con-icon'+'">'+(concon.indent != undefined && concon.indent > 1 ? '<img src="http://data.dieverdammten.de/gfx/icons/small_parent.gif" />' : '')+(concon.indent != undefined && concon.indent > 0 ? '<img src="http://data.dieverdammten.de/gfx/icons/small_parent.gif" />' : '')+'<img src="'+concon.image+'" /></td><td class="'+(concon.indent != undefined && concon.indent == 0 ? 'item' : 'subitem')+'">'+concon.name+level+'</td><td>'+(concon.done == 1 ? __('✓'): (concon.lock == 1 ? __('x') : '<abbr title="'+__(' AP')+'">' + concon.ap + '</abbr>'))+'</td>');
-        conTable.append(conRow);
-    }
-		conBox.append(conTable);
-  } 
-}
-function isExplorable(buildingID) {
-  var eba = new Array(100,101,102);  /* 17 */
-  var length = eba.length;
-    for(var i = 0; i < length; i++) {
-        if(eba[i] == buildingID) return true;
-    }
-    return false;
-}
-function generateRuinMap(x,y) {
-  $('#ruinmap').html('');
-  for ( i = 0; i < 14; i++ ) {
-    var maprow = $(document.createElement('ul')).addClass('maprow');
-    for ( j = 0; j < 13; j++ ) {
-      var ax = j;
-      var ay = i;
-      var mx = 'x' + j;
-      var my = 'y' + i;
-      var rx = j - 8;
-      var ry = i;
-      var rzd = null;
-      
-      var px = 'x' + x;
-      var py = 'y' + y;
-      maprow.append(generateRuinMapZone(i,j,data.map[py][px]['building']['ruin']));
-    }
-    var maprulerF = $(document.createElement('li')).addClass('mapruler').addClass('ruler_y'+ry).addClass('first').html(ry);
-    var maprulerL = maprulerF.clone().removeClass('first').addClass('last');
-    maprow.prepend(maprulerF);
-    maprow.append(maprulerL);
-    $('#ruinmap').append(maprow);
-  }
-  var maprulebarT = $(document.createElement('ul')).addClass('maprow').addClass('maprulebar').addClass('maprulebar-top');
-  for ( j = 0; j < 13; j++ ) {
-    var maprulex = $(document.createElement('li')).addClass('mapruler').addClass('ruler_x'+(j - 7)).html(j - 7);
-    maprulebarT.append(maprulex);
-  }
-  var mapruleoF = $(document.createElement('li')).addClass('mapcorner').addClass('first');
-  var mapruleoL = mapruleoF.clone().removeClass('first').addClass('last');
-  maprulebarT.prepend(mapruleoF);
-  maprulebarT.append(mapruleoL);
-  var maprulebarB = maprulebarT.clone().removeClass('maprulebar-top').addClass('maprulebar-bottom');
-  $('#ruinmap').prepend(maprulebarT);
-  $('#ruinmap').append(maprulebarB);
-  $('#ruinName').html(data.map[py][px]['building']['name']);
-  $('.ruinCoordsX').html(x);
-  $('.ruinCoordsY').html(y);
-  
-	if ( $('#ruinCX').html() != '' && $('#ruinCY').html() != '' && $('#ruinCX').html() != undefined && $('#ruinCY').html() != undefined ) {
-		selectRuinZone($('#ruinmap #x'+$('#ruinCX').html()+'y'+$('#ruinCY').html()));
-		data.crx = parseInt($('#ruinCX').html());
-		data.cry = parseInt($('#ruinCY').html());
+	cit.sort(function(a,b) { return a[1] > b[1] });
+	
+	for ( cco in cit ) {
+		var ctd = data.citizens[cit[cco][0]];
+		var citRow = $(document.createElement('tr')).addClass('cit-entry').html('<td class="pos-stat"><abbr onmouseover="highlightSpecialZone('+ctd.rx+','+ctd.ry+');" onmouseout="downdarkSpecialZone('+ctd.rx+','+ctd.ry+');" onclick="$(\'#x'+(ctd.rx)+'y'+(ctd.ry)+'\').click();" class="ruin-coords">['+ctd.rx+'|'+ctd.ry+']</abbr></td><td>'+ctd.name+'</td>');
+		citTable.append(citRow);
 	}
-	else {
-		selectRuinZone($('#ruinmap #x0y1'));
-		data.crx = 0;
-		data.cry = 1;
-	}
-}
-function generateRuinMapZone(i,j,ruin) {
-  var ax = j;
-  var ay = i;
-  var mx = 'x' + j;
-  var my = 'y' + i;
-  var rx = j - 7;
-  var ry = i;
-  var rzd = null;
-  var mapzone = $(document.createElement('li'));
-      
-  mapzone.addClass('mapzone').attr('rx',rx).attr('ry',ry).attr('ax',ax).attr('ay',ay);
-  mapzone.attr('id','x'+rx+'y'+ry);
-  if ( 7 == j && 0 == i ) {
-    mapzone.addClass('ruinEntry');
-  }
-  else if ( 0 == i ) {
-    mapzone.addClass('ruinFirstRow');
-  }
-  
-  if ( ruin[my] != undefined && ruin[my][mx] != undefined ) {
+	citBox.html('').append(citTable);	
 
-    if ( ruin[my][mx]['items'] != undefined && ruin[my][mx]['items'].length > 0 && !(rx == 0 && ry == 0) ) {
-      var zoneItems = ruin[my][mx]['items'];
-      for ( zi in zoneItems ) {
-        var zitem = zoneItems[zi];
-        if ( data.items[zitem.id] != undefined ) {
-          var ritem = data.items[zitem.id];
-          if ( data.mapitems[ritem.category][ritem.id] != undefined ) {
-            data.mapitems[ritem.category][ritem.id] += zitem.count;
-          }
-          else {
-            data.mapitems[ritem.category][ritem.id] = zitem.count;
-          }
-        }           
-      }         
-    }     
-
-    var zone = ruin[my][mx];
-    
-    if (ruin[my][mx]['tile'] != undefined) {
-      mapzone.addClass('tile-'+ruin[my][mx]['tile']);
-    }
-    if (ruin[my][mx]['doorlock'] != undefined && ruin[my][mx]['doorlock'] != "undefined") {
-      mapzone.addClass('doorlock-'+ruin[my][mx]['doorlock']);
-    }
-    else {
-      if (ruin[my][mx]['door'] != undefined) {
-        mapzone.addClass('door-'+ruin[my][mx]['door']);
-      }
-      if (ruin[my][mx]['lock'] != undefined) {
-        mapzone.addClass('lock-'+ruin[my][mx]['lock']);
-      }
-    }
-    if (ruin[my][mx]['z'] != undefined) {
-      mapzone.attr('z',ruin[my][mx]['z']);
-			mapzone.addClass('zombie-'+ruin[my][mx]['z']);
-    }
-    else {
-      var zc = 0;
-      mapzone.attr('z',0);
-      mapzone.addClass('danger0');
-    }
-		if ( ruin[my][mx]['comment'] != undefined ) {
-			mapzone.attr('comment',ruin[my][mx]['comment']);
-			if (ruin[my][mx]['comment']!='') {
-				mapzone.addClass('with-comment');
-			}
-		}
-		else {
-			mapzone.attr('comment','');
-		}
-    
-    if ( ruin[my][mx]['updatedOn'] != undefined && !(rx == 0 && ry == 0) ) {
-      var udate = new Date(ruin[my][mx]['updatedOn'] * 1000);
-      var cdate = new Date();
-      var ydate = new Date();
-      ydate.setDate(ydate.getDate() - 1);
-      var bdate = new Date();
-      bdate.setDate(bdate.getDate() - 2);
-      if ( udate.getDate() == cdate.getDate() && udate.getMonth() == cdate.getMonth() ) {
-        var utd = $(document.createElement('div')).addClass('zone-updated').addClass('zone-updated-today').attr('title',__('Heute aktualisiert'));
-        mapzone.append(utd);
-      }
-      else if ( udate.getDate() == ydate.getDate() && udate.getMonth() == ydate.getMonth() ) {
-        var utd = $(document.createElement('div')).addClass('zone-updated').addClass('zone-updated-yesterday').attr('title',__('Gestern aktualisiert'));
-        mapzone.append(utd);
-      }         
-      else if ( udate.getDate() == bdate.getDate() && udate.getMonth() == bdate.getMonth() ) {
-        var utd = $(document.createElement('div')).addClass('zone-updated').addClass('zone-updated-b4yesterday').attr('title',__('Vorgestern aktualisiert'));
-        mapzone.append(utd);
-      }
-    }
-  }
-  else if ( i > 0 ) {
-    /*mapzone.addClass('nyv');*/
-  }
-  
-  return mapzone;
-}
-function saveRoute() {
-	if ($('input[name="routeSave-name"]').val().trim().length == 0) {
-		$('input[name="routeSave-name"]').addClass('error');
-		ajaxInfo(__('Bitte einen Namen für die Route eingeben.'));
-		return false;
-	}
-	if ($('input[name="routeSave-no"]:checked').val() == undefined || $('input[name="routeSave-no"]:checked').val() == 0 || $('input[name="routeSave-no"]:checked').val() > 5) {
-		ajaxInfo(__('Bitte eine Route wählen.'));
-		return false;
-	}
-	eval("var coX = clickRX" + $('input[name="routeSave-no"]:checked').val() + ";");
-	eval("var coY = clickRY" + $('input[name="routeSave-no"]:checked').val() + ";");
-	var routeString = '';
-	for (i in coX) {
-		routeString = routeString + coX[i] + '-' + coY[i] + '_';
-	}
-	if (routeString == '') {
-		ajaxInfo(__('Diese Route wurde nicht eingezeichnet.'));
-		return false;
-	}
-	var token = secureKey;
-	$.ajax({
-		type: "POST",
-		url: "/fatamorgana/map/updateRoutes",
-		data: "key="+token+"&action=ADDROUTE&rname="+$('input[name="routeSave-name"]').val().trim()+"&route="+routeString,
-		success: function(msg) {
-			$('#dynascript').append(msg);
-			/*protectRuinBox(false);*/
-		}
-	});
 }
 
 /*
@@ -1563,16 +1110,8 @@ $(document).ready(function() {
 	$('#townName').html(system['gamename']);
 	$('#townDay').html(__('Tag')+' '+system['day']);
 	$('#townID').html(__('ID')+': '+system['gameid']);
-	$('#townSpy a').attr('href','http://dieverdammten.net/fatamorgana/spy/town/'+system['gameid']);
-	for (i in system['days']) {
-		var hislink = $(document.createElement('a')).attr('href','http://dieverdammten.net/fatamorgana/spy/town/'+system['gameid']+'/'+system['days'][i]).html(system['days'][i]);
-		$('#townHistory').append(hislink);
-	}
+	$('#townSpy a').attr('href','http://zombinoia.net/fatamorgana/spy/town/'+system['gameid']);
 	$('#townBar').slideDown(500);
-	
-	if ( data.spy != undefined && data.spy == 1 ) {
-		window.ajaxUpdate = function () { return false; }
-	};
 	
 	if ( data.system.error_code != undefined ) {
 		$('#box').remove();
@@ -1583,10 +1122,6 @@ $(document).ready(function() {
   $('#canvasDrawDiv').css('height', (data.height * 32)+'px');
   $('#canvasPlanDiv').css('width', (data.width * 32)+'px');
   $('#canvasPlanDiv').css('height', (data.height * 32)+'px');
-  
-  if ( data.spy != undefined && data.spy == 1 ) {
-     $('#ruinInfoBox').remove();
-  }
 	
 	for ( i = 0; i < data['height']; i++ ) {
 		var maprow = $(document.createElement('ul')).addClass('maprow');
@@ -1656,17 +1191,9 @@ $(document).ready(function() {
 					moveMapHover(e);
 			}
 	});
-  $('#ruinmap .mapzone').live({
-      click: function() {
-          selectRuinZone($(this));
-      },
-      mouseover: function(e) {
-          updateRuinMapRulers($(this));
-      }
-  });
 	
 	// fetch item clicks
-	$('#item-info .zone-item, #bank-info .zone-item').live({
+	$('#item-info .zone-item, #town-info .zone-item').live({
 		click: function(e) {
 			e.stopPropagation();
 			$(this).attr('state', (parseInt($(this).attr('state')) + Math.pow(-1, $(this).attr('state'))));
@@ -1675,7 +1202,7 @@ $(document).ready(function() {
 	});
 	
 	// fetch category clicks
-	$('#item-info .zone-item-cat, #bank-info .zone-item-cat').live({
+	$('#item-info .zone-item-cat, #town-info .zone-item-cat').live({
 		click: function() {
 			var newState = parseInt($(this).attr('state')) + Math.pow(-1, $(this).attr('state'));
 			$(this).attr('state', newState);
@@ -1747,51 +1274,6 @@ $(document).ready(function() {
 		}
 	});
 	
-	$('a#toggle-routeSave').live({
-		click: function(e) {
-			e.preventDefault();
-			$('a#toggle-routeSave').hide();
-			$('#routeSave-form').slideToggle(500);
-		}
-	});
-	$('a#routeSave-cancel').live({
-		click: function(e) {
-			e.preventDefault();
-			$('#routeSave-form').slideUp(500, function() {
-				$('a#toggle-routeSave').show();
-			});
-		}
-	});
-	$('a#routeSave-save').live({
-		click: function(e) {
-			e.preventDefault();
-			$('input[name="routeSave-name"]').removeClass('error');
-			saveRoute();
-		}
-	});
-	
-	$('a.toggle-building-update').live({
-		click: function(e) {
-			e.preventDefault();
-			$('#building-selector').toggleClass('hideme');
-		}
-	});
-	
-	$('a.constructions-xml').live({
-		click: function(e) {
-			e.preventDefault();
-			$('.construction-table-man').addClass('hideme');
-			$('.construction-table-xml').removeClass('hideme');
-		}
-	});
-	$('a.constructions-man').live({
-		click: function(e) {
-			e.preventDefault();
-			$('.construction-table-xml').addClass('hideme');
-			$('.construction-table-man').removeClass('hideme');
-		}
-	});	
-	
 	$('a.ajaxsave').live({
 		click: function(e) {
 			e.preventDefault();
@@ -1817,45 +1299,6 @@ $(document).ready(function() {
 		}
 	});
 	
-	$('div.select-building').live({
-		click: function(e) {
-			e.preventDefault();
-			var bID = $(this).attr('ref');
-			saveBuildingGuess(data.cx,data.cy,bID);
-		}
-	});
-	
-	$('div.ruinTile').live({
-		click: function() {
-			ajaxRuinUpdate('RUIN-TILE',$(this).attr('tile'));
-		}
-	});
-  $('div.ruinDoorLock').live({
-    click: function() {
-      ajaxRuinUpdate('RUIN-DOORLOCK',$(this).attr('doorlock'));
-    }
-  });
-	$('div.ruinDoor').live({
-		click: function() {
-			ajaxRuinUpdate('RUIN-DOOR',$(this).attr('door'));
-		}
-	});
-	$('div.ruinLock').live({
-		click: function() {
-			ajaxRuinUpdate('RUIN-LOCK',$(this).attr('lock'));
-		}
-	});
-	$('div.ruinZombie').live({
-		click: function() {
-			ajaxRuinUpdate('RUIN-ZOMBIE',$(this).attr('zombie'));
-		}
-	});
-	$('#ruinComment-save').live({
-		click: function() {
-			ajaxRuinUpdate('RUIN-COMMENT',$('#ruinComment').val());
-		}
-	});
-	
 	// generate bank data
 	for ( var a in data.bankSorted ) {
 		var b = data.bankSorted[a];
@@ -1864,15 +1307,15 @@ $(document).ready(function() {
 			var raw_item = data.items[b];
 			var brokenItem = item.broken == 1 ? ' broken' : '';
 			var defItem = raw_item.category == 'Armor' ? ' defense' : '';
-			$('#bank-info-'+raw_item.category).append('<div class="zone-item click'+brokenItem+defItem+'" state="0" ref="'+raw_item.id+'"><img src="'+data.system.icon+'item_'+raw_item.image+'.gif" title="'+raw_item.name+' ('+__('ID')+': '+Math.abs(raw_item.id)+')" />&nbsp;'+item.count+'</div>');
+			$('#town-info-'+raw_item.category).append('<div class="zone-item click'+brokenItem+defItem+'" state="0" ref="'+raw_item.id+'"><img src="'+data.system.icon+'item_'+raw_item.image+'.gif" title="'+raw_item.name+' ('+__('ID')+': '+Math.abs(raw_item.id)+')" />&nbsp;'+item.count+'</div>');
 		}
 	}
 	
 	// tab switcher box
-	$("ul#box-tabs li.box-tab").click(function(e) { 
+	$("ul#box-tabs li").click(function(e) { 
 		e.preventDefault();
 		$('li.box-tab').removeClass('active');
-		$(this).addClass('active');
+		$(this).addClass('active')
 		var box = $(this).attr('ref');
 		$('div.box-tab-content').addClass('hideme');
 		$('div#'+box).removeClass('hideme');
@@ -1880,28 +1323,6 @@ $(document).ready(function() {
 			$('#item-selector').addClass('hideme');
 		}
 	});
-  $("ul#box-tabs li.box-spread").click(function(e) { 
-    e.preventDefault();
-    $('#map-wrapper').css('opacity',.1);
-    $('#item-selector').addClass('hideme');
-    $('li.box-tab').addClass('hideme');
-    $('div.box-tab-content').each(function() {
-      $(this).removeClass('hideme').addClass('spread-out');
-    });
-    $(this).addClass('hideme');
-    $("ul#box-tabs li.box-unspread").removeClass('hideme');
-  });
-  $("ul#box-tabs li.box-unspread").click(function(e) { 
-    e.preventDefault();
-    $('div.box-tab-content').each(function() {
-      $(this).removeClass('spread-out').addClass('hideme');
-    });
-    $('li.box-tab').removeClass('hideme');
-    $('#map-wrapper').css('opacity',1);    
-    $(this).addClass('hideme');
-    $("ul#box-tabs li.box-spread").removeClass('hideme');
-    $('#x'+(data.cx)+'y'+(data.cy)).click();
-  });
 	// tab switcher tools
 	$("ul#tools-tabs li").click(function(e) { 
 		e.preventDefault();
@@ -1942,16 +1363,6 @@ $(document).ready(function() {
 			$('#UPDATE-SCOUTZOMBIES').fadeOut(250, function() { $('.toggle-zombie-update').fadeIn(500); });
 		}
 	});
-  $('a#ENTER-BUILDING').live({
-    click: function(e) {
-      e.preventDefault();
-      generateRuinMap($(this).attr('ocx'),$(this).attr('ocy'));
-      $('#ruinmap-wrapper').slideDown(500);
-    }
-  });
-  $('div#ruinmap-wrapper-close').click(function() {
-    $('#ruinmap-wrapper').slideUp(500);
-  });
 	$('.zombie-count-change.minus').live({
 		click: function(e) {
 			var cval = $('#zombie-count-input').val();
@@ -1979,12 +1390,7 @@ $(document).ready(function() {
 	
 	// fetch arrow keys
 	$(document).keydown(function (e) {
-			if ( $('#ruinmap-wrapper:visible').length == 1 ) {
-				walkInTheRuin(e);
-			}
-			else {
-				walkInTheDesert(e);
-			}
+			walkInTheDesert(e);
 	});
 	
 	// load color wheel
@@ -2032,9 +1438,8 @@ $(document).ready(function() {
 		if ( $(this).attr('id') == 'mode-normal' ) {
 			$('#canvasPlanDiv').addClass('hideme');
 			$('#canvasDrawDiv').addClass('hideme');
-			$('#tools').addClass('hideme');      
-      $('#cape').addClass('hideme');
-      $('#box').removeClass('hideme');
+			$('#box').removeClass('hideme');
+			$('#tools').addClass('hideme');
 		}
 		else if ( $(this).attr('id') == 'mode-planner' ) {
 			$('#tab-tools-planner').click();
@@ -2042,13 +1447,6 @@ $(document).ready(function() {
 		else if ( $(this).attr('id') == 'mode-draw' ) {
 			$('#tab-tools-colors').click();
 		}
-		else if ( $(this).attr('id') == 'mode-cape' ) {
-      $('#canvasPlanDiv').addClass('hideme');
-      $('#canvasDrawDiv').addClass('hideme');
-      $('#box').addClass('hideme');
-      $('#tools').addClass('hideme');
-      $('#cape').removeClass('hideme');
-    }
 	});
 	$('#tab-tools-colors').click(function() {
 		$('.mode-switch').removeClass('active-mode');
@@ -2056,7 +1454,6 @@ $(document).ready(function() {
 		$('#canvasPlanDiv').addClass('hideme');
 		$('#canvasDrawDiv').removeClass('hideme');
 		$('#box').addClass('hideme');
-    $('#cape').addClass('hideme');
 		$('#tools').removeClass('hideme');
 	});
 	$('#tab-tools-planner').click(function() {
@@ -2065,7 +1462,6 @@ $(document).ready(function() {
 		$('#canvasDrawDiv').addClass('hideme');
 		$('#canvasPlanDiv').removeClass('hideme');
 		$('#box').addClass('hideme');
-    $('#cape').addClass('hideme');
 		$('#tools').removeClass('hideme');
 	});
 	
@@ -2095,29 +1491,13 @@ $(document).ready(function() {
 		}
 	});
 	
-	$('.ruinOption').live({
-		mouseover: function() {
-			$('#ruinHoverInfo').addClass('hovering').html($(this).attr('title'));
-		},
-		mouseout: function() {
-			$('#ruinHoverInfo').removeClass('hovering').html('');
-		}
-	});
-	
 	// populate item selector
 	populateItemSelector();
-	// populate building selector
-	populateBuildingSelector();
 	
 	// list storms & expeditions
 	generateStormList();
 	generateExpeditionList();
 	generateRuinList();
 	generateCitizenList();
-  generateConstructionList();
-  
-  $('#x'+(data.cx)+'y'+(data.cy)).click();
-  
-  addRadius(11,"km","#00ffff");
 
 }); // END GENERATE
