@@ -1,0 +1,35 @@
+#canvasPlanDiv, #canvasDrawDiv {
+	position: absolute;
+	border: 0px dotted #f00;
+	width: 800px;
+	height: 800px;
+	z-index: 25;
+	top: 0;
+	left: 0;
+	padding: 32px;
+}
+#canvasPlanDiv canvas, #canvasDrawDiv canvas {
+	background: rgba(255,255,255,.05);
+	cursor: crosshair;
+}
+
+ul.canvas-tools {
+	list-style-type: none;
+}
+ul.canvas-tools li.draw-color, ul.canvas-tools li.draw-size, ul.canvas-tools li.draw-route {
+	display: block;
+	border: 1px dotted #fff;
+	border-right: none;
+	border-left: none;
+	background: rgba(255,255,255,.2);
+	padding: 3px 6px;
+	color: #666;
+	margin-bottom: 6px;
+}
+ul.canvas-tools li.draw-color.active, ul.canvas-tools li.draw-size.active, ul.canvas-tools li.draw-route.active {
+	border: 1px solid #fff;
+	border-right: none;
+	border-left: none;
+	background: rgba(204,204,255,.5);
+	color: #333;
+}
