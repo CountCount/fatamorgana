@@ -1,0 +1,54 @@
+/** Fata Morgana Constructions Updater
+ * version 0.03
+ * 23 September 2012
+ * Copyright (c) 2012, Paul Bruhn
+ * Released under the GPL license (http://www.gnu.org/copyleft/gpl.html)
+ *
+ * −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−----------
+ *
+ * This is a Greasemonkey user script.
+ *
+ * To install, you need Greasemonkey: http://www.greasespot.net/
+ * Then restart Firefox and revisit this script.
+ * Under Tools, there will be a new menu item to "Install User Script".
+ * Accept the default configuration and install.
+ *
+ * To uninstall, go to Tools/Manage User Scripts,
+ * select "Fata Morgana Constructions Updater", and click Uninstall.
+ *
+ * −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−----------
+ *
+ * @author  Paul Bruhn <countcount.cc@gmail.com>
+ * @link    http://dieverdammten.net/fatamorgana/
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @charset UTF-8
+*/
+// ==UserScript==
+// @name    Fata Morgana Constructions Updater
+// @namespace   http://dieverdammten.net/fatamorgana/
+// @description Construction Updater
+// @include   http://www.dieverdammten.de/*
+// @version     0.03
+// ==/UserScript==
+
+// a function that loads jQuery and calls a callback function when jQuery has finished loading
+function addJQuery(callback) {
+  var script = document.createElement("script");
+  script.setAttribute("src", "//code.jquery.com/jquery-latest.min.js");
+  script.addEventListener('load', function() {
+    var script = document.createElement("script");
+    script.setAttribute("src", "//dieverdammten.net/fatamorgana/js/fm_constructions.js?r="+Math.random());
+    document.body.appendChild(script);
+    var script = document.createElement("script");
+    script.textContent = "(" + callback.toString() + ")();";
+    document.body.appendChild(script);
+  }, false);
+  document.body.appendChild(script);
+}
+
+// the guts of this userscript
+function main() {
+  alert('FM Construction Updater geladen.');
+}
+
+addJQuery(main);
